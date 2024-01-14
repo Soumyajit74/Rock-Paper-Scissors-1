@@ -32,7 +32,7 @@ human_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 
 if human_choice >= 3 or human_choice < 0: 
     print("You typed an invalid number, you lose!") 
 else:
-    print(game_images[user_choice])
+    print(game_images[human_choice])
 
     computer_choice = random.randint(0, 2)
     print("Computer chose:")
